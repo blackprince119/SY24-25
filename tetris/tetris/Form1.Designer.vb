@@ -53,7 +53,7 @@ Partial Class Form1
         ' enemy
         ' 
         enemy.Image = CType(resources.GetObject("enemy.Image"), Image)
-        enemy.Location = New Point(30, 278)
+        enemy.Location = New Point(1, 350)
         enemy.Name = "enemy"
         enemy.Size = New Size(113, 90)
         enemy.SizeMode = PictureBoxSizeMode.Zoom
@@ -73,7 +73,7 @@ Partial Class Form1
         ' enemy2
         ' 
         enemy2.Image = CType(resources.GetObject("enemy2.Image"), Image)
-        enemy2.Location = New Point(230, 251)
+        enemy2.Location = New Point(615, 350)
         enemy2.Name = "enemy2"
         enemy2.Size = New Size(113, 90)
         enemy2.SizeMode = PictureBoxSizeMode.Zoom
