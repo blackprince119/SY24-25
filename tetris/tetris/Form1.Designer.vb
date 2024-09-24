@@ -29,10 +29,14 @@ Partial Class Form1
         enemy = New PictureBox()
         food = New PictureBox()
         enemy2 = New PictureBox()
+        platform = New PictureBox()
+        enemy3 = New PictureBox()
         CType(avatar, ComponentModel.ISupportInitialize).BeginInit()
         CType(enemy, ComponentModel.ISupportInitialize).BeginInit()
         CType(food, ComponentModel.ISupportInitialize).BeginInit()
         CType(enemy2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(platform, ComponentModel.ISupportInitialize).BeginInit()
+        CType(enemy3, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Timer1
@@ -53,7 +57,7 @@ Partial Class Form1
         ' enemy
         ' 
         enemy.Image = CType(resources.GetObject("enemy.Image"), Image)
-        enemy.Location = New Point(1, 350)
+        enemy.Location = New Point(12, 277)
         enemy.Name = "enemy"
         enemy.Size = New Size(113, 90)
         enemy.SizeMode = PictureBoxSizeMode.Zoom
@@ -73,18 +77,40 @@ Partial Class Form1
         ' enemy2
         ' 
         enemy2.Image = CType(resources.GetObject("enemy2.Image"), Image)
-        enemy2.Location = New Point(615, 350)
+        enemy2.Location = New Point(615, 277)
         enemy2.Name = "enemy2"
         enemy2.Size = New Size(113, 90)
         enemy2.SizeMode = PictureBoxSizeMode.Zoom
         enemy2.TabIndex = 4
         enemy2.TabStop = False
         ' 
+        ' platform
+        ' 
+        platform.BackColor = SystemColors.ControlText
+        platform.Location = New Point(232, 184)
+        platform.Name = "platform"
+        platform.Size = New Size(496, 32)
+        platform.TabIndex = 5
+        platform.TabStop = False
+        ' 
+        ' enemy3
+        ' 
+        enemy3.Image = CType(resources.GetObject("enemy3.Image"), Image)
+        enemy3.Location = New Point(615, 88)
+        enemy3.Name = "enemy3"
+        enemy3.Size = New Size(113, 90)
+        enemy3.SizeMode = PictureBoxSizeMode.Zoom
+        enemy3.TabIndex = 6
+        enemy3.TabStop = False
+        enemy3.Tag = "-1"
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(728, 517)
+        Controls.Add(enemy3)
+        Controls.Add(platform)
         Controls.Add(enemy2)
         Controls.Add(food)
         Controls.Add(enemy)
@@ -95,6 +121,8 @@ Partial Class Form1
         CType(enemy, ComponentModel.ISupportInitialize).EndInit()
         CType(food, ComponentModel.ISupportInitialize).EndInit()
         CType(enemy2, ComponentModel.ISupportInitialize).EndInit()
+        CType(platform, ComponentModel.ISupportInitialize).EndInit()
+        CType(enemy3, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
     Friend WithEvents Timer1 As Timer
@@ -102,5 +130,7 @@ Partial Class Form1
     Friend WithEvents enemy As PictureBox
     Friend WithEvents food As PictureBox
     Friend WithEvents enemy2 As PictureBox
+    Friend WithEvents platform As PictureBox
+    Friend WithEvents enemy3 As PictureBox
 
 End Class

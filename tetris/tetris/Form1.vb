@@ -2,6 +2,17 @@
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         follow(enemy, avatar, 10, 0)
         follow(enemy2, avatar, 0, 5)
+        pace(enemy3, platform, 5)
+    End Sub
+    Sub pace(e As PictureBox, p As PictureBox, s As Integer)
+        Dim dir As Integer
+        dir = e.Tag
+        If e.Location.X > p.Location.X + p.Width Then
+            e.Location += New Point(dir * s, 0)
+        Else
+            e.Location += New Point(dir * s, 0)
+            e.Tag = -dir
+        End If
     End Sub
     Sub follow(e As PictureBox, a As PictureBox, speedx As Integer, speedy As Integer)
         If e.Location.Y > a.Location.Y Then
