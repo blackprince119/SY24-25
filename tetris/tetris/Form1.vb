@@ -1,19 +1,37 @@
 ﻿Public Class Form1
+    Dim score As Integer
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         follow(enemy, avatar, 10, 0)
         follow(enemy2, avatar, 0, 5)
-        pace(enemy3, platform, 5)
+        PaceX(enemy3, platform, 20)
     End Sub
-    Sub pace(e As PictureBox, p As PictureBox, s As Integer)
+    Sub PaceX(e As PictureBox, p As PictureBox, speed As Integer)
         Dim dir As Integer
         dir = e.Tag
-        If e.Location.X > p.Location.X + p.Width Then
-            e.Location += New Point(dir * s, 0)
-        Else
-            e.Location += New Point(dir * s, 0)
-            e.Tag = -dir
+
+        move(e, dir * speed, 0)
+
+        If e.Location.X > p.Location.X + p.Width - 100 Then
+            e.Tag = dir * -1
+        End If
+        If e.Location.X < p.Location.X Then
+            e.Tag = dir * -1
         End If
     End Sub
+    Sub PaceY(e As PictureBox, p As PictureBox, speed As Integer)
+        Dim dir As Integer
+        dir = e.Tag
+
+        move(e, 0, dir * speed)
+
+        If e.Location.Y < p.Location.Y Then
+            e.Tag = dir * -1
+        End If
+        If e.Location.Y > p.Location.Y + p.Height / 2 Then
+            e.Tag = dir * -1
+        End If
+    End Sub
+
     Sub follow(e As PictureBox, a As PictureBox, speedx As Integer, speedy As Integer)
         If e.Location.Y > a.Location.Y Then
             move(e, 0, -speedy)
@@ -47,5 +65,10 @@
     End Sub
     Sub move(p As PictureBox, xdir As Integer, ydir As Integer)
         p.Location += New Point(xdir, ydir)
+    End Sub
+
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+        score += 1
+        score_label.Text = score
     End Sub
 End Class

@@ -31,6 +31,8 @@ Partial Class Form1
         enemy2 = New PictureBox()
         platform = New PictureBox()
         enemy3 = New PictureBox()
+        score_label = New Label()
+        Timer2 = New Timer(components)
         CType(avatar, ComponentModel.ISupportInitialize).BeginInit()
         CType(enemy, ComponentModel.ISupportInitialize).BeginInit()
         CType(food, ComponentModel.ISupportInitialize).BeginInit()
@@ -87,7 +89,7 @@ Partial Class Form1
         ' platform
         ' 
         platform.BackColor = SystemColors.ControlText
-        platform.Location = New Point(232, 184)
+        platform.Location = New Point(205, 174)
         platform.Name = "platform"
         platform.Size = New Size(496, 32)
         platform.TabIndex = 5
@@ -96,19 +98,35 @@ Partial Class Form1
         ' enemy3
         ' 
         enemy3.Image = CType(resources.GetObject("enemy3.Image"), Image)
-        enemy3.Location = New Point(615, 88)
+        enemy3.Location = New Point(395, 78)
         enemy3.Name = "enemy3"
         enemy3.Size = New Size(113, 90)
         enemy3.SizeMode = PictureBoxSizeMode.Zoom
         enemy3.TabIndex = 6
         enemy3.TabStop = False
-        enemy3.Tag = "-1"
+        enemy3.Tag = "1"
+        ' 
+        ' score_label
+        ' 
+        score_label.AutoSize = True
+        score_label.Font = New Font("Segoe UI Black", 28.2F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        score_label.Location = New Point(554, 9)
+        score_label.Name = "score_label"
+        score_label.Size = New Size(163, 62)
+        score_label.TabIndex = 7
+        score_label.Text = "label1"
+        ' 
+        ' Timer2
+        ' 
+        Timer2.Enabled = True
+        Timer2.Interval = 1000
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(728, 517)
+        ClientSize = New Size(1491, 540)
+        Controls.Add(score_label)
         Controls.Add(enemy3)
         Controls.Add(platform)
         Controls.Add(enemy2)
@@ -124,6 +142,7 @@ Partial Class Form1
         CType(platform, ComponentModel.ISupportInitialize).EndInit()
         CType(enemy3, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
+        PerformLayout()
     End Sub
     Friend WithEvents Timer1 As Timer
     Friend WithEvents avatar As PictureBox
@@ -132,5 +151,7 @@ Partial Class Form1
     Friend WithEvents enemy2 As PictureBox
     Friend WithEvents platform As PictureBox
     Friend WithEvents enemy3 As PictureBox
+    Friend WithEvents score_label As Label
+    Friend WithEvents Timer2 As Timer
 
 End Class
