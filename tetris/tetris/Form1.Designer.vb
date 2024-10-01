@@ -27,18 +27,23 @@ Partial Class Form1
         Timer1 = New Timer(components)
         avatar = New PictureBox()
         enemy = New PictureBox()
-        food = New PictureBox()
+        coin = New PictureBox()
         enemy2 = New PictureBox()
         platform = New PictureBox()
         enemy3 = New PictureBox()
         score_label = New Label()
         Timer2 = New Timer(components)
+        wall = New PictureBox()
+        jump_time = New Timer(components)
+        enemycuatro = New PictureBox()
         CType(avatar, ComponentModel.ISupportInitialize).BeginInit()
         CType(enemy, ComponentModel.ISupportInitialize).BeginInit()
-        CType(food, ComponentModel.ISupportInitialize).BeginInit()
+        CType(coin, ComponentModel.ISupportInitialize).BeginInit()
         CType(enemy2, ComponentModel.ISupportInitialize).BeginInit()
         CType(platform, ComponentModel.ISupportInitialize).BeginInit()
         CType(enemy3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(wall, ComponentModel.ISupportInitialize).BeginInit()
+        CType(enemycuatro, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Timer1
@@ -66,15 +71,16 @@ Partial Class Form1
         enemy.TabIndex = 2
         enemy.TabStop = False
         ' 
-        ' food
+        ' coin
         ' 
-        food.Image = CType(resources.GetObject("food.Image"), Image)
-        food.Location = New Point(275, 53)
-        food.Name = "food"
-        food.Size = New Size(68, 63)
-        food.SizeMode = PictureBoxSizeMode.Zoom
-        food.TabIndex = 3
-        food.TabStop = False
+        coin.Image = CType(resources.GetObject("coin.Image"), Image)
+        coin.Location = New Point(205, 105)
+        coin.Name = "coin"
+        coin.Size = New Size(68, 63)
+        coin.SizeMode = PictureBoxSizeMode.Zoom
+        coin.TabIndex = 3
+        coin.TabStop = False
+        coin.Tag = "something"
         ' 
         ' enemy2
         ' 
@@ -94,6 +100,7 @@ Partial Class Form1
         platform.Size = New Size(496, 32)
         platform.TabIndex = 5
         platform.TabStop = False
+        platform.Tag = "wall"
         ' 
         ' enemy3
         ' 
@@ -121,37 +128,68 @@ Partial Class Form1
         Timer2.Enabled = True
         Timer2.Interval = 1000
         ' 
+        ' wall
+        ' 
+        wall.BackColor = SystemColors.ActiveCaptionText
+        wall.Location = New Point(894, 53)
+        wall.Name = "wall"
+        wall.Size = New Size(125, 330)
+        wall.TabIndex = 8
+        wall.TabStop = False
+        wall.Tag = "wall"
+        ' 
+        ' jump_time
+        ' 
+        jump_time.Interval = 1000
+        ' 
+        ' enemycuatro
+        ' 
+        enemycuatro.Image = CType(resources.GetObject("enemycuatro.Image"), Image)
+        enemycuatro.Location = New Point(325, 268)
+        enemycuatro.Name = "enemycuatro"
+        enemycuatro.Size = New Size(113, 90)
+        enemycuatro.SizeMode = PictureBoxSizeMode.Zoom
+        enemycuatro.TabIndex = 9
+        enemycuatro.TabStop = False
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1491, 540)
+        Controls.Add(enemycuatro)
+        Controls.Add(wall)
         Controls.Add(score_label)
         Controls.Add(enemy3)
         Controls.Add(platform)
         Controls.Add(enemy2)
-        Controls.Add(food)
+        Controls.Add(coin)
         Controls.Add(enemy)
         Controls.Add(avatar)
         Name = "Form1"
         Text = "Form1"
         CType(avatar, ComponentModel.ISupportInitialize).EndInit()
         CType(enemy, ComponentModel.ISupportInitialize).EndInit()
-        CType(food, ComponentModel.ISupportInitialize).EndInit()
+        CType(coin, ComponentModel.ISupportInitialize).EndInit()
         CType(enemy2, ComponentModel.ISupportInitialize).EndInit()
         CType(platform, ComponentModel.ISupportInitialize).EndInit()
         CType(enemy3, ComponentModel.ISupportInitialize).EndInit()
+        CType(wall, ComponentModel.ISupportInitialize).EndInit()
+        CType(enemycuatro, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
     Friend WithEvents Timer1 As Timer
     Friend WithEvents avatar As PictureBox
     Friend WithEvents enemy As PictureBox
-    Friend WithEvents food As PictureBox
+    Friend WithEvents coin As PictureBox
     Friend WithEvents enemy2 As PictureBox
     Friend WithEvents platform As PictureBox
     Friend WithEvents enemy3 As PictureBox
     Friend WithEvents score_label As Label
     Friend WithEvents Timer2 As Timer
+    Friend WithEvents wall As PictureBox
+    Friend WithEvents jump_time As Timer
+    Friend WithEvents enemycuatro As PictureBox
 
 End Class
