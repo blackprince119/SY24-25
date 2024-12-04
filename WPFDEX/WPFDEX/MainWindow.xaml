@@ -7,10 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Image x:Name="VIsas" HorizontalAlignment="Left" Height="100" Margin="34,25,0,0" VerticalAlignment="Top" Width="100" Source="/download (6).jpg"/>
+        <Image x:Name="Visas" HorizontalAlignment="Left" Height="100" Margin="34,25,0,0" VerticalAlignment="Top" Width="100" Source="/download (6).jpg"/>
         <Image x:Name="Shinobird" HorizontalAlignment="Left" Height="100" Margin="34,0,0,0" VerticalAlignment="Center" Width="100" Source="/download (5).jpg"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="178,0,0,0" VerticalAlignment="Center" Height="44" Width="96" Click="Button_Click"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="34,300,0,0" VerticalAlignment="Top" Width="100" Source="/download (4).jpg"/>
-
+        <Button x:Name="birdb" Content="Shinobird" HorizontalAlignment="Left" Margin="183,0,0,0" VerticalAlignment="Center" Height="44" Width="96" Click="Button_Click"/>
+        <Image x:Name="Snake" HorizontalAlignment="Left" Height="100" Margin="34,300,0,0" VerticalAlignment="Top" Width="100" Source="/download (4).jpg"/>
+        <Button x:Name="visasb" Content="Visas" HorizontalAlignment="Left" Margin="183,53,0,0" VerticalAlignment="Top" Height="44" Width="96" Click="Button_Click_1"/>
+        <Button x:Name="snakeb" Content="Snake" HorizontalAlignment="Left" Margin="183,323,0,0" VerticalAlignment="Top" Height="44" Width="96" Click="Button_Click_2"/>
+        <TextBlock x:Name="Zach" HorizontalAlignment="Left" Margin="355,254,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="146" Width="402"/>
+        <Button x:Name="back" Content="back" HorizontalAlignment="Left" Margin="710,60,0,0" VerticalAlignment="Top" Height="37" Width="60"/>
     </Grid>
 </Window>
