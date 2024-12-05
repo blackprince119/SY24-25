@@ -5,80 +5,117 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pixelpain"
         mc:Ignorable="d"
-        Title="MainWindow" Height="448" Width="800">
-    <Grid>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="164,13,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="164,59,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="164,107,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="164,155,0,0" RenderTransformOrigin="0.708,0.115"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="164,203,0,0" RenderTransformOrigin="0.608,0.211"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="164,248,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="164,291,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="164,339,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="44,3,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFE69999" Margin="44,54,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB0E699" Margin="44,107,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FF99E6E3" Margin="44,160,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFE6DF99" Margin="44,214,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFDD99E6" Margin="44,267,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFE6B899" Margin="44,320,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="Black" Margin="44,374,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="212,13,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="212,59,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="212,107,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="212,155,0,0" RenderTransformOrigin="0.708,0.115"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="212,203,0,0" RenderTransformOrigin="0.608,0.211"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="212,248,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="212,291,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="212,339,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="260,13,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="260,59,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="260,107,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="260,155,0,0" RenderTransformOrigin="0.708,0.115"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="260,203,0,0" RenderTransformOrigin="0.608,0.211"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="260,248,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="260,291,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="260,339,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="308,13,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="308,59,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="308,107,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="308,155,0,0" RenderTransformOrigin="0.708,0.115"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="308,203,0,0" RenderTransformOrigin="0.608,0.211"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="308,248,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="308,291,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="308,339,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="356,13,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="356,59,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="356,107,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="356,155,0,0" RenderTransformOrigin="0.708,0.115"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="356,203,0,0" RenderTransformOrigin="0.608,0.211"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="356,248,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="356,291,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="356,339,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="404,13,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="404,59,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="404,107,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="404,155,0,0" RenderTransformOrigin="0.708,0.115"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="404,203,0,0" RenderTransformOrigin="0.608,0.211"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="404,248,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="404,291,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="404,339,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="452,13,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="452,59,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="452,107,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="452,155,0,0" RenderTransformOrigin="0.708,0.115"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="452,203,0,0" RenderTransformOrigin="0.608,0.211"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="452,248,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="452,291,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="452,339,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="500,13,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="500,59,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="500,107,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="500,155,0,0" RenderTransformOrigin="0.708,0.115"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="500,203,0,0" RenderTransformOrigin="0.608,0.211"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="500,248,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="500,291,0,0"/>
-        <Rectangle HorizontalAlignment="Left" Height="48" Stroke="Black" VerticalAlignment="Top" Width="48" Fill="#FFB999E6" Margin="500,339,0,0"/>
+        Title="MainWindow" Height="437" Width="800">
+    <Grid Margin="-10,0,10,0">
+        <Rectangle x:Name="p01" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,16,0,0"/>
+        <Rectangle x:Name="fill1" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="44,3,0,0"/>
+        <Rectangle x:Name="fill2" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFE69999" Margin="44,54,0,0"/>
+        <Rectangle x:Name="fill3" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB0E699" Margin="44,107,0,0"/>
+        <Rectangle x:Name="fill4" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FF99E6E3" Margin="44,160,0,0"/>
+        <Rectangle x:Name="fill5" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFE6DF99" Margin="44,214,0,0"/>
+        <Rectangle x:Name="fill6" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFDD99E6" Margin="44,267,0,0"/>
+        <Rectangle x:Name="fill7" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFE6B899" Margin="44,320,0,0"/>
+        <Rectangle x:Name="fill8" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="Black" Margin="44,374,0,0"/>
+        <Rectangle x:Name="p02" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,16,0,0"/>
+        <Rectangle x:Name="p03" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="387,16,0,0"/>
+        <Rectangle x:Name="p04" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="424,16,0,0"/>
+        <Rectangle x:Name="p05" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="461,16,0,0"/>
+        <Rectangle x:Name="p00" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="276,16,0,0"/>
+        <Rectangle x:Name="p06" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="498,16,0,0"/>
+        <Rectangle x:Name="p07" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="535,16,0,0"/>
+        <Rectangle x:Name="p08" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,16,0,0"/>
+        <Rectangle x:Name="p09" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,16,0,0"/>
+        <Rectangle x:Name="p11" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,53,0,0"/>
+        <Rectangle x:Name="p12" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,53,0,0"/>
+        <Rectangle x:Name="p13" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="387,53,0,0"/>
+        <Rectangle x:Name="p14" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="424,53,0,0"/>
+        <Rectangle x:Name="p15" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="461,53,0,0"/>
+        <Rectangle x:Name="p10" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="276,53,0,0"/>
+        <Rectangle x:Name="p16" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="498,53,0,0"/>
+        <Rectangle x:Name="p17" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="535,53,0,0"/>
+        <Rectangle x:Name="p18" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,53,0,0"/>
+        <Rectangle x:Name="p19" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,53,0,0"/>
+        <Rectangle x:Name="p21" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,90,0,0"/>
+        <Rectangle x:Name="p22" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,90,0,0"/>
+        <Rectangle x:Name="p23" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="387,90,0,0"/>
+        <Rectangle x:Name="p24" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="424,90,0,0"/>
+        <Rectangle x:Name="p25" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="461,90,0,0"/>
+        <Rectangle x:Name="p20" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="276,90,0,0"/>
+        <Rectangle x:Name="p26" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="498,90,0,0"/>
+        <Rectangle x:Name="p27" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="535,90,0,0"/>
+        <Rectangle x:Name="p28" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,90,0,0"/>
+        <Rectangle x:Name="p29" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,90,0,0"/>
+        <Rectangle x:Name="p31" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,127,0,0"/>
+        <Rectangle x:Name="p32" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,127,0,0"/>
+        <Rectangle x:Name="p33" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="387,127,0,0"/>
+        <Rectangle x:Name="p34" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="424,127,0,0"/>
+        <Rectangle x:Name="p35" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="461,127,0,0"/>
+        <Rectangle x:Name="p30" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="276,127,0,0"/>
+        <Rectangle x:Name="p36" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="498,127,0,0"/>
+        <Rectangle x:Name="p37" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="535,127,0,0"/>
+        <Rectangle x:Name="p38" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,127,0,0"/>
+        <Rectangle x:Name="p39" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,127,0,0"/>
+        <Rectangle x:Name="p41" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,160,0,0"/>
+        <Rectangle x:Name="p42" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,160,0,0"/>
+        <Rectangle x:Name="p43" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="387,160,0,0"/>
+        <Rectangle x:Name="p44" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="424,160,0,0"/>
+        <Rectangle x:Name="p45" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="461,160,0,0"/>
+        <Rectangle x:Name="p40" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="276,160,0,0"/>
+        <Rectangle x:Name="p46" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="498,160,0,0"/>
+        <Rectangle x:Name="p47" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="535,160,0,0"/>
+        <Rectangle x:Name="p48" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,160,0,0"/>
+        <Rectangle x:Name="p49" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,160,0,0"/>
+        <Rectangle x:Name="p51" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,197,0,0"/>
+        <Rectangle x:Name="p52" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,197,0,0"/>
+        <Rectangle x:Name="p53" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="387,197,0,0"/>
+        <Rectangle x:Name="p54" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="424,197,0,0"/>
+        <Rectangle x:Name="p55" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="461,197,0,0"/>
+        <Rectangle x:Name="p50" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="276,197,0,0"/>
+        <Rectangle x:Name="p56" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="498,197,0,0"/>
+        <Rectangle x:Name="p57" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="535,197,0,0"/>
+        <Rectangle x:Name="p58" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,197,0,0"/>
+        <Rectangle x:Name="p59" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,197,0,0"/>
+        <Rectangle x:Name="p61" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,232,0,0"/>
+        <Rectangle x:Name="p62" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,232,0,0"/>
+        <Rectangle x:Name="p63" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="387,232,0,0"/>
+        <Rectangle x:Name="p64" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="424,232,0,0"/>
+        <Rectangle x:Name="p65" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="461,232,0,0"/>
+        <Rectangle x:Name="p60" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="276,232,0,0"/>
+        <Rectangle x:Name="p66" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="498,232,0,0"/>
+        <Rectangle x:Name="p67" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="535,232,0,0"/>
+        <Rectangle x:Name="p68" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,232,0,0"/>
+        <Rectangle x:Name="p69" HorizontalAlignment="Left" Height="38" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,232,0,0"/>
+        <Rectangle x:Name="p71" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,267,0,0"/>
+        <Rectangle x:Name="p72" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,267,0,0"/>
+        <Rectangle x:Name="p73" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="387,267,0,0"/>
+        <Rectangle x:Name="p74" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="424,267,0,0"/>
+        <Rectangle x:Name="p75" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="461,267,0,0"/>
+        <Rectangle x:Name="p70" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="276,267,0,0"/>
+        <Rectangle x:Name="p76" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="498,267,0,0"/>
+        <Rectangle x:Name="p77" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="535,267,0,0"/>
+        <Rectangle x:Name="p78" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,267,0,0"/>
+        <Rectangle x:Name="p79" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,267,0,0"/>
+        <Rectangle x:Name="p81" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,304,0,0"/>
+        <Rectangle x:Name="p2" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,304,0,0"/>
+        <Rectangle x:Name="p83" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="387,304,0,0"/>
+        <Rectangle x:Name="p84" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="424,304,0,0"/>
+        <Rectangle x:Name="p85" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="461,304,0,0"/>
+        <Rectangle x:Name="p80" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="276,304,0,0"/>
+        <Rectangle x:Name="p86" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="498,304,0,0"/>
+        <Rectangle x:Name="p87" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="535,304,0,0"/>
+        <Rectangle x:Name="p88" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,304,0,0"/>
+        <Rectangle x:Name="p89" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,304,0,0"/>
+        <Rectangle x:Name="p91" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,341,0,0"/>
+        <Rectangle x:Name="p92" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,341,0,0"/>
+        <Rectangle x:Name="p93" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="387,341,0,0"/>
+        <Rectangle x:Name="p94" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="424,341,0,0"/>
+        <Rectangle x:Name="p95" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="461,341,0,0"/>
+        <Rectangle x:Name="p90" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="276,341,0,0"/>
+        <Rectangle x:Name="p96" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="498,341,0,0"/>
+        <Rectangle x:Name="p97" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="535,341,0,0"/>
+        <Rectangle x:Name="p98" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,341,0,0"/>
+        <Rectangle x:Name="p99" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,341,0,0"/>
+        <Rectangle x:Name="brush1" HorizontalAlignment="Left" Height="62" Margin="706,34,0,0" Stroke="Black" VerticalAlignment="Top" Width="61" RenderTransformOrigin="0.452,0.486"/>
 
     </Grid>
 </Window>
