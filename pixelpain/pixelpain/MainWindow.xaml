@@ -96,7 +96,7 @@
         <Rectangle x:Name="p78" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,267,0,0"/>
         <Rectangle x:Name="p79" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,267,0,0"/>
         <Rectangle x:Name="p81" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,304,0,0"/>
-        <Rectangle x:Name="p2" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,304,0,0"/>
+        <Rectangle x:Name="p82" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="350,304,0,0"/>
         <Rectangle x:Name="p83" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="387,304,0,0"/>
         <Rectangle x:Name="p84" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="424,304,0,0"/>
         <Rectangle x:Name="p85" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="461,304,0,0"/>
