@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:pixelpain"
         mc:Ignorable="d"
         Title="MainWindow" Height="437" Width="800">
-    <Grid Margin="-10,0,10,0">
+    <Grid x:Name="Grid1" Margin="-10,0,10,0">
         <Rectangle x:Name="p01" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="313,16,0,0"/>
         <Rectangle x:Name="fill1" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="44,3,0,0"/>
         <Rectangle x:Name="fill2" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFE69999" Margin="44,54,0,0"/>
@@ -116,6 +116,88 @@
         <Rectangle x:Name="p98" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="572,341,0,0"/>
         <Rectangle x:Name="p99" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,341,0,0"/>
         <Rectangle x:Name="brush1" HorizontalAlignment="Left" Height="62" Margin="706,34,0,0" Stroke="Black" VerticalAlignment="Top" Width="61" RenderTransformOrigin="0.452,0.486"/>
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="706,122,0,0" VerticalAlignment="Top" Height="34" Width="64" Click="Button_Click"/>
+        <CheckBox x:Name="chkdrag" Content="Drag" HorizontalAlignment="Left" Margin="703,185,0,0" VerticalAlignment="Top" Height="119" Width="64"/>
+        <Rectangle x:Name="fill9" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Margin="99,54,0,0">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="Red" Offset="0"/>
+                    <GradientStop Color="#FFFFA600" Offset="0.098"/>
+                    <GradientStop Color="#FFE9FF00" Offset="0.23"/>
+                    <GradientStop Color="#FF2EF709" Offset="0.348"/>
+                    <GradientStop Color="#FF0BE3D4" Offset="0.439"/>
+                    <GradientStop Color="#FF0C9DF0" Offset="0.521"/>
+                    <GradientStop Color="#FF061DF4" Offset="0.603"/>
+                    <GradientStop Color="#FF7331F5" Offset="0.689"/>
+                    <GradientStop Color="#FFD666F7" Offset="0.77"/>
+                    <GradientStop Color="#FFF996F3" Offset="0.843"/>
+                    <GradientStop Color="#FFBA7492" Offset="0.911"/>
+                    <GradientStop Color="#FF4A4748" Offset="0.974"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="fill10" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Margin="99,107,0,0" RenderTransformOrigin="1.946,2.948">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFB913CF" Offset="0.007"/>
+                    <GradientStop Color="#FFF295FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="fill11" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Margin="99,160,0,0">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE62121"/>
+                    <GradientStop Color="#FFFFA4A4" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="fill12" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Margin="99,214,0,0">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF14DD20"/>
+                    <GradientStop Color="#FF91F997" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="fill13" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Margin="99,267,0,0">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF07D6A"/>
+                    <GradientStop Color="#FFE2C928" Offset="0.997"/>
+                    <GradientStop Color="#FFFAC280" Offset="0.485"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="fill14" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Margin="99,320,0,0">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF92F779"/>
+                    <GradientStop Color="#FFB878FD" Offset="1"/>
+                    <GradientStop Color="#FF80B3FA" Offset="0.485"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="fill15" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Margin="154,107,0,0">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF07D6A"/>
+                    <GradientStop Color="#FFE26245" Offset="0.997"/>
+                    <GradientStop Color="#FFE19CEB" Offset="0.485"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="fill16" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Margin="154,160,0,0">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF07D6A"/>
+                    <GradientStop Color="#FF2869E2" Offset="1"/>
+                    <GradientStop Color="#FFFAFAFA" Offset="0.485"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
 
     </Grid>
 </Window>
