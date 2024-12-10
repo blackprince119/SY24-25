@@ -34,4 +34,15 @@
         Return Nothing
     End Function
 
+    Private Sub Button_Click_1(sender As Object, e As RoutedEventArgs)
+        For index = 0 To 49
+            getRect(index).Fill = brush1.Fill
+        Next
+    End Sub
+
+    Private Sub Button_Click_2(sender As Object, e As RoutedEventArgs)
+        For index = 50 To 99
+            getRect(index).Fill = brush1.Fill
+        Next
+    End Sub
 End Class

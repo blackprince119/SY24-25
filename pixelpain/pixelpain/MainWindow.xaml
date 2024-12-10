@@ -117,7 +117,7 @@
         <Rectangle x:Name="p99" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Fill="#FFB999E6" Margin="609,341,0,0"/>
         <Rectangle x:Name="brush1" HorizontalAlignment="Left" Height="62" Margin="706,34,0,0" Stroke="Black" VerticalAlignment="Top" Width="61" RenderTransformOrigin="0.452,0.486"/>
         <Button Content="Reset" HorizontalAlignment="Left" Margin="706,122,0,0" VerticalAlignment="Top" Height="34" Width="64" Click="Button_Click"/>
-        <CheckBox x:Name="chkdrag" Content="Drag" HorizontalAlignment="Left" Margin="703,185,0,0" VerticalAlignment="Top" Height="119" Width="64"/>
+        <CheckBox x:Name="chkdrag" Content="Drag" HorizontalAlignment="Left" Margin="706,178,0,0" VerticalAlignment="Top" Height="26" Width="64"/>
         <Rectangle x:Name="fill9" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Margin="99,54,0,0">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -198,6 +198,8 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
+        <Button Content="Top" HorizontalAlignment="Left" Margin="706,223,0,0" VerticalAlignment="Top" Height="28" Width="64" Click="Button_Click_1"/>
+        <Button Content="Bottom" HorizontalAlignment="Left" Margin="706,267,0,0" VerticalAlignment="Top" Height="28" Width="64"/>
 
     </Grid>
 </Window>
