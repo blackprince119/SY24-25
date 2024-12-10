@@ -45,4 +45,20 @@
             getRect(index).Fill = brush1.Fill
         Next
     End Sub
+
+    Private Sub Button_Click_3(sender As Object, e As RoutedEventArgs)
+        For row = 0 To 9
+            For col = 0 To 4
+                getRect(row * 10 + col).Fill = brush1.Fill
+            Next
+        Next
+    End Sub
+
+    Private Sub Button_Click_4(sender As Object, e As RoutedEventArgs)
+        For row = 0 To 9
+            For col = 5 To 9
+                getRect(row * 10 + col).Fill = brush1.Fill
+            Next
+        Next
+    End Sub
 End Class

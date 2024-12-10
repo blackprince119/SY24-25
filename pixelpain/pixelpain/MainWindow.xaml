@@ -199,7 +199,9 @@
             </Rectangle.Fill>
         </Rectangle>
         <Button Content="Top" HorizontalAlignment="Left" Margin="706,223,0,0" VerticalAlignment="Top" Height="28" Width="64" Click="Button_Click_1"/>
-        <Button Content="Bottom" HorizontalAlignment="Left" Margin="706,267,0,0" VerticalAlignment="Top" Height="28" Width="64"/>
+        <Button Content="Bottom" HorizontalAlignment="Left" Margin="706,267,0,0" VerticalAlignment="Top" Height="28" Width="64" Click="Button_Click_2"/>
+        <Button Content="Left" HorizontalAlignment="Left" Margin="706,308,0,0" VerticalAlignment="Top" Height="30" Width="64" Click="Button_Click_3"/>
+        <Button Content="Right" HorizontalAlignment="Left" Margin="706,350,0,0" VerticalAlignment="Top" Height="42" Width="64" Click="Button_Click_4"/>
 
     </Grid>
 </Window>
