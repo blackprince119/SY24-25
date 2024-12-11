@@ -61,4 +61,36 @@
             Next
         Next
     End Sub
+
+    Private Sub Button_Click_5(sender As Object, e As RoutedEventArgs)
+        For row = 0 To 9 Step 2
+            For col = 0 To 9
+                getRect(row * 10 + col).Fill = brush1.Fill
+            Next
+        Next
+    End Sub
+
+    Private Sub Button_Click_6(sender As Object, e As RoutedEventArgs)
+        For row = 0 To 9
+            For col = 0 To 9 Step 2
+                getRect(row * 10 + col).Fill = brush1.Fill
+            Next
+        Next
+    End Sub
+
+    Private Sub Button_Click_7(sender As Object, e As RoutedEventArgs)
+        For row = 0 To 9
+            For col = 0 To row
+                getRect(row * 10 + col).Fill = brush1.Fill
+            Next
+        Next
+    End Sub
+
+    Private Sub Button_Click_8(sender As Object, e As RoutedEventArgs)
+        For row = 5 To 9
+            For col = 5 To 9
+                getRect(row * 10 + col).Fill = brush1.Fill
+            Next
+        Next
+    End Sub
 End Class

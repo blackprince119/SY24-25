@@ -201,7 +201,11 @@
         <Button Content="Top" HorizontalAlignment="Left" Margin="706,223,0,0" VerticalAlignment="Top" Height="28" Width="64" Click="Button_Click_1"/>
         <Button Content="Bottom" HorizontalAlignment="Left" Margin="706,267,0,0" VerticalAlignment="Top" Height="28" Width="64" Click="Button_Click_2"/>
         <Button Content="Left" HorizontalAlignment="Left" Margin="706,308,0,0" VerticalAlignment="Top" Height="30" Width="64" Click="Button_Click_3"/>
-        <Button Content="Right" HorizontalAlignment="Left" Margin="706,350,0,0" VerticalAlignment="Top" Height="42" Width="64" Click="Button_Click_4"/>
+        <Button Content="Right" HorizontalAlignment="Left" Margin="706,350,0,0" VerticalAlignment="Top" Height="28" Width="64" Click="Button_Click_4"/>
+        <Button Content="Pattern (hori.)" HorizontalAlignment="Left" Margin="154,227,0,0" VerticalAlignment="Top" Height="24" Width="117" Click="Button_Click_5"/>
+        <Button Content="pattern (vert.)" HorizontalAlignment="Left" Margin="154,271,0,0" VerticalAlignment="Top" Width="117" Click="Button_Click_6"/>
+        <Button Content="Diagonal" HorizontalAlignment="Left" Margin="154,305,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.205,0.679" Width="117" Click="Button_Click_7"/>
+        <Button Content="lower right" HorizontalAlignment="Left" Margin="154,337,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.14,1.034" Width="117" Click="Button_Click_8"/>
 
     </Grid>
 </Window>
